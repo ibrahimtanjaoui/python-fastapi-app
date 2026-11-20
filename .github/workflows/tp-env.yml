@@ -45,7 +45,7 @@ jobs:
         id: version
         run: |
           echo "full_version=${{ inputs.version }}-$(date +%F)" >> $GITHUB_OUTPUT
-          echo "foo=bar" > $GITHUB_OUTPUT
+          
 
   verify-env:
     runs-on: ubuntu-latest
